@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JUST GO.</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    JUST<span>GO</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link"></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "galerie.html" class = "nav-link">galerie</a>
+                        </li>
+                        
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "a propos.html" class = "nav-link">a propos</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Laissez vos empreintes</h1>
+                    <p></p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choisissez votre lieu de voyage:</h2>
+                    <form class = "flex">
+                        <input type = "texte" class = "form-control" placeholder="nom de destination">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="numéro" class = "form-control" placeholder="prix ">
+                        <input type="submit" class = "btn" value = "chercher">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">
+                        connaître certains endroits avant votre voyage</span>
+                    <h2 class = "lg-title">lieux en vedette</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-reo-de-janeiro-brazil.jpg" alt = "lieu vedette">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                    
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-Tunisie-Tozeur.jpg" alt = "lieu vedette">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tunisie,Touzeur
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-Tunisie-Hammamet.jpg" alt = "lieu vedette">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tunisie,Hammamet
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-Tunisie-Bizerte.jpg" alt = "lieu vedette">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tunisie,Bizerte
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/featured-Tunisie-La médina de tunis.jpg" alt = "lieu vedette">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                            Tunisie,La médina de tunis
+                            </span>
+                            <div>
+                                <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/vedette -Tunisie-Djerba.jpg" alt = "lieu vedette">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+
+                                Tunisie,Djerba
+                            </span>
+                            <div>
+                                <p class = "text"> le plus belle island</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">CONNAÎTRE LES SERVICES QUE NOUS OFFRONS</span>
+                    <h2 class = "lg-title">nos services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Hôtel luxueux</h3>
+                        <p class = "text">Vous recherchez un séjour dans un endroit de rêve ? Vous désirez vous rendre dans un lieu d’exception dans un hôtel de luxe avec un confort chic et un standing ultra haut de gamme ? Découvrez sans attendre notre sélection des 10 meilleurs hôtels de luxe à Tunisie.</p>
+                        <a href = "#" class = "btn">Lire la suite</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Guide de voyage</h3>
+                        <p class = "text"> Nous vous offrent la possibilité de mieux préparer vos vacances et profiter au maximum de votre séjour.Ensuite, notre Guide de Voyages en Tunisie  ne se contente  pas de vous proposer des paysages enchanteurs, des ruines et des déserts désolés, mais bien plus que cela. Un départ pour l’aventure, un dépaysement, un mélange de farniente, de détente et de découvertes au coeur de la vie locale.</p>
+                        <a href = "#" class = "btn">Lire la suite</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Prix  ​​approprié</h3>
+                        <p class = "text">Découvrez le vrai prix d'un voyage en Tunisie avec nos estimations de budgets</p>
+                        <a href = "#" class = "btn">Lire la suite</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">CE QUE NOS CLIENTS DISENT DE NOUS</span>
+                    <h2 class = "lg-title">TÉMOIGNAGES</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Laissez-vous séduire par le charme et les superbes plages d'Hammamet ! Situé sur la côte sud Est de la péninsule du Cap Bon, Hammamet c’est le "Saint-Tropez tunisien", dans un cadre verdoyant avec des vergers de citronniers et d’orangers. Vous pourrez également flâner sur les marchés à la recherche de belles poteries locales et vous balader dans la vieille ville (Médina) dont les murs d’enceinte datent de 1500 ans. En été, c’est l’époque des festivals de musique et de théâtre, à ne manquer sous aucun prétexte!</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "témoignage">
+                            <div>
+                                <h3>Salem Farah</h3>
+                                <p class = "text"> Hammamet</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Bonjour,
+
+                            Nous venons de passer une semaine super dans le sud tunisien avec nos enfants. Nous avons sillonné les routes entre Djerba et Tozeur sans aucune crainte et avons fait une méharée de 3 jours dans le désert avec Just GO  que je vous recommande.
+                            Les tunisiens étaient tous extrêmement chaleureux et ravis de voir quelques rares touristes. Nous avons énormément parlé avec eux, ils se sentent beaucoup plus libres mais ont terriblement besoin des touristes pour s'en sortir et il n'y a quasiment personne ...A Djerba, pour ceux qui ont horreur des gros hôtels et qui veulent découvrir l'île, je vous recommande la maison d'hôtes L'heure bleue.
+                            Voilà, n'hésitez pas à partir, vous ne serez pas déçus.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2" alt = "témoignage">
+                            <div>
+                                <h3>Salem  Haifa</h3>
+                                <p class = "text"> Djerba</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Ce genre d'expédition et d'expérience il faut le faire en pleine journée le matin pour vivre la Médina à 1000% ( les odeurs , le bruit des marchants et les allé -retours des gens vous donneront une idée sur comment étaient les gens à cette époque en plus regarder les portes des maisons mêmes fermées donnera une idée plus ou moins précise sur le rang social des propriétaires et plus encore donc je vous recommande cette visite et cela vaut aussi pour Sidi BouSaid et toutes les Médina de la Tunisie mais celle de Tunis encore plus</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "témoignage">
+                            <div>
+                                <h3>Emna Ben Othmen</h3>
+                                <p class = "text"> la médina de tunis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "test-row">
+                <div class = "test-item">
+                    <p class = "text">Le quartier du vieux port est adorable, mais le reste de la ville présente moins d’intérêt et nous nous sommes rapidement retrouvés à tourner en rond en ayant prévu trois jours sur place. Une façon, finalement, de découvrir une version tranquille de la Tunisie, loin des attractions touristiques.
+
+                        Nous ne voulions pas dépenser pour une nouvelle location automobile, mais si vous êtes motorisés et tenez à voir du pays, vous aurez la possibilité, dans les environs de Bizerte, de découvrir le Cap Serrat, randonner sur l’Ichkeul ou encore admirer des poteries traditionnelles et des cigognes à Sejnane.</p>
+                    <div class = "test-item-info">
+                        <img src = "images/test-1.jpg" alt = "témoignage">
+                        <div>
+                            <h3>Habibi Samar</h3>
+                            <p class = "text"> Bizerte</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        JUST<span>GO</span>
+                        <title> Votre premier tour operateur de luxe en Tunisie </title>
+                    </a>
+                    <p class = "text"></p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Suivez-nous sur: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Lieux populaires:</h2>
+                    <ul>
+                        <li><a href = "#">Tozeur</a></li>
+                        <li><a href = "#">Djerba</a></li>
+                        <li><a href = "#">Bizerte</a></li>
+                        <li><a href = "#">Hammamet</a></li>
+                        <li><a href = "#">La médina de tunis</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>
+                        Entrer votre adresse mail</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="entrer votre email" class = "form-control">
+                        <input type = "submit" class = "btn" value = " s'inscrire">
+                    </form>
+                    
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html> 
+
